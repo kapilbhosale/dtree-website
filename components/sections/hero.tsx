@@ -3,6 +3,7 @@
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { AnimatedBackground } from "@/components/ui/animated-background";
+import Link from "next/link"; // Import Link
 
 export function Hero() {
   return (
@@ -22,10 +23,12 @@ export function Hero() {
             We are a product development company specializing in Ruby on Rails,
             React.js, and Mobile App Development.
           </p>
-          <Button size="lg" className="group">
-            Start Your Project
-            <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition" />
-          </Button>
+          <Link href="#contact" className="text-foreground/80 hover:text-foreground">
+            <Button size="lg" className="group">
+              Start Your Project
+              <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition" />
+            </Button>
+          </Link>
       </div>
     </section>
   );
