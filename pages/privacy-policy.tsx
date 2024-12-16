@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function PrivacyPolicy() {
-
   return (
     <div className="container mx-auto px-6 py-12">
       <div className="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow">
