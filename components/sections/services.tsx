@@ -43,7 +43,13 @@ export function Services() {
   );
 }
 
-function ServiceCard({ icon, title, description }) {
+interface ServiceCardProps {
+  icon: React.ReactNode;
+  title: string;
+  description: string;
+}
+
+function ServiceCard({ icon, title, description }: ServiceCardProps) {
   return (
     <Card className="p-6 hover:shadow-lg transition-shadow">
       <div className="mb-4 text-primary">{icon}</div>

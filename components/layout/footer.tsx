@@ -38,6 +38,16 @@ export function Footer() {
                   Contact
                 </Link>
               </li>
+              <li>
+                <Link href="/privacy-policy" className="hover:underline">
+                  Privacy Policy
+                </Link>
+              </li>
+              <li>
+                <Link href="/terms-and-conditions" className="hover:underline">
+                  Terms and Conditions
+                </Link>
+              </li>
             </ul>
           </div>
           <div>
